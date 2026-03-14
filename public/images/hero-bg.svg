@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="glow1" cx="20%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1A2132" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="35%">
+      <stop offset="0%" stop-color="#EF4444" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#1A2132" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="60%" cy="20%" r="30%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1A2132" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1200" height="600" fill="#1A2132"/>
+
+  <!-- Ambient glows -->
+  <rect width="1200" height="600" fill="url(#glow1)"/>
+  <rect width="1200" height="600" fill="url(#glow2)"/>
+  <rect width="1200" height="600" fill="url(#glow3)"/>
+
+  <!-- Abstract food shapes - subtle outlines -->
+  <g opacity="0.06" stroke="#F59E0B" stroke-width="1.5" fill="none">
+    <!-- Spoon shape -->
+    <ellipse cx="150" cy="120" rx="35" ry="50" transform="rotate(-30 150 120)"/>
+    <line x1="150" y1="170" x2="120" y2="280"/>
+
+    <!-- Fork shape -->
+    <g transform="translate(1050, 80) rotate(20)">
+      <line x1="0" y1="0" x2="0" y2="60"/>
+      <line x1="-12" y1="0" x2="-12" y2="40"/>
+      <line x1="12" y1="0" x2="12" y2="40"/>
+      <line x1="0" y1="60" x2="0" y2="180"/>
+    </g>
+
+    <!-- Bowl shape -->
+    <path d="M 300 450 Q 380 550, 460 450" stroke-width="2"/>
+    <ellipse cx="380" cy="450" rx="80" ry="15"/>
+
+    <!-- Steam lines -->
+    <path d="M 350 420 Q 360 400, 350 380 Q 340 360, 350 340" filter="url(#blur1)"/>
+    <path d="M 380 415 Q 390 395, 380 375 Q 370 355, 380 335" filter="url(#blur1)"/>
+    <path d="M 410 420 Q 420 400, 410 380 Q 400 360, 410 340" filter="url(#blur1)"/>
+
+    <!-- Knife shape -->
+    <g transform="translate(900, 350) rotate(-15)">
+      <rect x="-5" y="0" width="10" height="120" rx="3"/>
+      <path d="M -5 0 Q -5 -60, 0 -80 Q 5 -60, 5 0"/>
+    </g>
+
+    <!-- Leaf/herb shapes -->
+    <g transform="translate(700, 100)">
+      <path d="M 0 0 Q 20 -30, 50 -20 Q 30 -10, 0 0" fill="#10B981" fill-opacity="0.04" stroke="#10B981"/>
+      <path d="M 0 0 Q -15 -25, -40 -15 Q -20 -5, 0 0" fill="#10B981" fill-opacity="0.04" stroke="#10B981"/>
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#10B981"/>
+    </g>
+
+    <!-- Chili shape -->
+    <g transform="translate(200, 350) rotate(30)">
+      <path d="M 0 0 Q 10 -5, 60 -10 Q 50 0, 0 0" stroke="#EF4444" fill="#EF4444" fill-opacity="0.03"/>
+      <line x1="0" y1="0" x2="-15" y2="5" stroke="#10B981"/>
+    </g>
+
+    <!-- Circle/plate -->
+    <circle cx="800" cy="480" r="60"/>
+    <circle cx="800" cy="480" r="50" stroke-dasharray="4 4"/>
+
+    <!-- Small dots pattern - spices -->
+    <g filter="url(#blur2)">
+      <circle cx="500" cy="150" r="3" fill="#F59E0B" fill-opacity="0.1"/>
+      <circle cx="520" cy="140" r="2" fill="#F59E0B" fill-opacity="0.08"/>
+      <circle cx="510" cy="160" r="2.5" fill="#F59E0B" fill-opacity="0.06"/>
+      <circle cx="540" cy="155" r="2" fill="#F59E0B" fill-opacity="0.09"/>
+      <circle cx="490" cy="145" r="3" fill="#F59E0B" fill-opacity="0.07"/>
+    </g>
+
+    <!-- Garlic shape -->
+    <g transform="translate(950, 250)">
+      <ellipse cx="0" cy="0" rx="20" ry="25"/>
+      <ellipse cx="-15" cy="-5" rx="12" ry="22" transform="rotate(-15 -15 -5)"/>
+      <ellipse cx="15" cy="-5" rx="12" ry="22" transform="rotate(15 15 -5)"/>
+    </g>
+  </g>
+
+  <!-- Decorative dots grid pattern -->
+  <g opacity="0.03" fill="#FFFFFF">
+    <circle cx="50" cy="50" r="1.5"/>
+    <circle cx="100" cy="50" r="1.5"/>
+    <circle cx="150" cy="50" r="1.5"/>
+    <circle cx="200" cy="50" r="1.5"/>
+    <circle cx="250" cy="50" r="1.5"/>
+    <circle cx="50" cy="100" r="1.5"/>
+    <circle cx="100" cy="100" r="1.5"/>
+    <circle cx="150" cy="100" r="1.5"/>
+    <circle cx="200" cy="100" r="1.5"/>
+    <circle cx="250" cy="100" r="1.5"/>
+    <circle cx="950" cy="50" r="1.5"/>
+    <circle cx="1000" cy="50" r="1.5"/>
+    <circle cx="1050" cy="50" r="1.5"/>
+    <circle cx="1100" cy="50" r="1.5"/>
+    <circle cx="1150" cy="50" r="1.5"/>
+    <circle cx="950" cy="100" r="1.5"/>
+    <circle cx="1000" cy="100" r="1.5"/>
+    <circle cx="1050" cy="100" r="1.5"/>
+    <circle cx="1100" cy="100" r="1.5"/>
+    <circle cx="1150" cy="100" r="1.5"/>
+  </g>
+</svg>

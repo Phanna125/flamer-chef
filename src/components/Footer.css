@@ -1,0 +1,255 @@
+.footer-container {
+  background-color: var(--dark-bg);
+  color: #D1D5DB;
+  padding-top: 60px;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-col h4 {
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.brand-col {
+  flex: 2;
+  min-width: 300px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  font-family: var(--font-heading);
+}
+
+.logo-icon-small {
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary-500);
+  border-radius: 4px;
+}
+
+.footer-description {
+  margin-bottom: 24px;
+  line-height: 1.8;
+  color: #9CA3AF;
+  max-width: 350px;
+}
+
+.footer-owner {
+  margin-bottom: 18px;
+  color: #FCD34D;
+  font-weight: 700;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.social-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: background 0.2s;
+}
+
+.social-circle:hover {
+  background: var(--primary-500);
+  color: var(--dark-bg);
+}
+
+.links-col {
+  flex: 1;
+  min-width: 150px;
+}
+
+.links-col ul {
+  list-style: none;
+}
+
+.footer-link-list,
+.contact-list {
+  list-style: none;
+}
+
+.links-col li {
+  margin-bottom: 12px;
+}
+
+.links-col a {
+  color: #9CA3AF;
+  transition: color 0.2s;
+}
+
+.links-col a:hover {
+  color: var(--primary-500);
+}
+
+.contact-list {
+  display: grid;
+  gap: 12px;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #D1D5DB;
+  transition: color 0.2s ease;
+  word-break: break-word;
+}
+
+.contact-link:hover {
+  color: #FFFFFF;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-500);
+  flex-shrink: 0;
+}
+
+.subscribe-col {
+  flex: 1.5;
+  min-width: 250px;
+}
+
+.subscribe-col p {
+  color: #9CA3AF;
+  margin-bottom: 16px;
+}
+
+.footer-note {
+  max-width: 320px;
+  line-height: 1.8;
+}
+
+.footer-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-pill-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--primary-500);
+  color: var(--dark-bg);
+  font-weight: 700;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.footer-pill-link:hover {
+  background: var(--primary-600);
+  transform: translateY(-1px);
+}
+
+.footer-pill-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-pill-secondary:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.subscribe-form {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  padding: 4px;
+  align-items: center;
+}
+
+.subscribe-form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  outline: none;
+}
+
+.subscribe-form input::placeholder {
+  color: #9CA3AF;
+}
+
+.subscribe-btn {
+  background: var(--primary-500);
+  color: var(--dark-bg);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.subscribe-btn:hover {
+  background: var(--primary-600);
+}
+
+.footer-bottom {
+  padding: 24px 24px;
+  text-align: left;
+  color: #6B7280;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 720px) {
+  .footer-container {
+    padding-top: 48px;
+  }
+
+  .footer-content {
+    gap: 28px;
+  }
+
+  .brand-col,
+  .links-col,
+  .subscribe-col {
+    min-width: 100%;
+  }
+
+  .footer-description,
+  .footer-note {
+    max-width: none;
+  }
+
+  .footer-bottom {
+    padding: 22px 0 28px;
+  }
+}

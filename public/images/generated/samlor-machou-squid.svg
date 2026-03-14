@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sour Soup with Squid</title>
+  <desc id="desc">Generated recipe cover for Sour Soup with Squid.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#23443c"/>
+      <stop offset="100%" stop-color="#6ea17b"/>
+    </linearGradient>
+    <linearGradient id="panelGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d7dfee" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#d2ecb6" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="rgba(8, 19, 17, 0.45)"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="42" y="42" width="1116" height="816" rx="36" fill="none" stroke="rgba(239, 248, 237, 0.22)" stroke-width="2"/>
+
+  <g opacity="0.16">
+    <circle cx="1027" cy="557" r="9" fill="#d7dfee" opacity="0.39"/><circle cx="1028" cy="558" r="10" fill="#d7dfee" opacity="0.18"/><circle cx="1029" cy="559" r="11" fill="#d7dfee" opacity="0.25"/><circle cx="1030" cy="560" r="12" fill="#d7dfee" opacity="0.32"/><circle cx="1031" cy="561" r="13" fill="#d7dfee" opacity="0.39"/><circle cx="1032" cy="562" r="14" fill="#d7dfee" opacity="0.18"/><circle cx="1033" cy="563" r="15" fill="#d7dfee" opacity="0.25"/><circle cx="1034" cy="564" r="16" fill="#d7dfee" opacity="0.32"/><circle cx="1035" cy="565" r="6" fill="#d7dfee" opacity="0.39"/><circle cx="1036" cy="566" r="7" fill="#d7dfee" opacity="0.18"/><circle cx="1058" cy="588" r="7" fill="#d7dfee" opacity="0.25"/><circle cx="1059" cy="589" r="8" fill="#d7dfee" opacity="0.32"/><circle cx="1060" cy="590" r="9" fill="#d7dfee" opacity="0.39"/><circle cx="120" cy="591" r="10" fill="#d7dfee" opacity="0.18"/><circle cx="121" cy="592" r="11" fill="#d7dfee" opacity="0.25"/><circle cx="122" cy="593" r="12" fill="#d7dfee" opacity="0.32"/>
+  </g>
+
+  <g transform="translate(820 170) rotate(13)" filter="url(#shadow)">
+    <ellipse cx="0" cy="0" rx="210" ry="160" fill="url(#panelGlow)"/>
+    <ellipse cx="0" cy="0" rx="138" ry="104" fill="rgba(11, 30, 26, 0.34)"/>
+    <path d="M -92 0 C -48 -78, 52 -74, 96 0 C 46 70, -44 82, -92 0 Z" fill="#d7dfee" opacity="0.72"/>
+    <path d="M -38 -60 C 20 -48, 58 18, 14 64 C -44 56, -72 -10, -38 -60 Z" fill="#d2ecb6" opacity="0.52"/>
+  </g>
+
+  <circle cx="805" cy="199" r="104" fill="#d7dfee" opacity="0.12"/>
+  <circle cx="887" cy="408" r="148" fill="#d2ecb6" opacity="0.10"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="108" width="268" height="52" rx="26" fill="rgba(11, 30, 26, 0.34)"/>
+    <text x="102" y="141" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#f3fbef">SOUP &amp; STEW</text>
+
+    <rect x="72" y="644" width="304" height="58" rx="29" fill="#d7dfee"/>
+    <text x="104" y="681" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#2f1a0f">SQUID</text>
+  </g>
+
+  <g transform="translate(78 214)">
+    <text font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700" fill="#f3fbef">
+      <tspan x="0" dy="0">Sour Soup with</tspan><tspan x="0" dy="86">Squid</tspan>
+    </text>
+    <text x="0" y="446" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="28" fill="rgba(243, 251, 239, 0.84)">Prep 10 min | Cook 25 min | Serves 2</text>
+    <text x="0" y="498" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="24" fill="rgba(243, 251, 239, 0.84)">Style: Sour Soup | Rating 4.7</text>
+  </g>
+</svg>

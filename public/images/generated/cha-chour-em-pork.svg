@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Stir-fried Sweet &amp; Sour with Pork</title>
+  <desc id="desc">Generated recipe cover for Stir-fried Sweet &amp; Sour with Pork.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7a2f20"/>
+      <stop offset="100%" stop-color="#d88a44"/>
+    </linearGradient>
+    <linearGradient id="panelGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f0c1ad" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#f6d3a2" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="rgba(27, 10, 5, 0.45)"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="42" y="42" width="1116" height="816" rx="36" fill="none" stroke="rgba(255, 245, 233, 0.22)" stroke-width="2"/>
+
+  <g opacity="0.16">
+    <circle cx="227" cy="671" r="13" fill="#f0c1ad" opacity="0.28"/><circle cx="228" cy="672" r="14" fill="#f0c1ad" opacity="0.35"/><circle cx="229" cy="673" r="15" fill="#f0c1ad" opacity="0.42"/><circle cx="230" cy="674" r="16" fill="#f0c1ad" opacity="0.21"/><circle cx="231" cy="675" r="6" fill="#f0c1ad" opacity="0.28"/><circle cx="232" cy="676" r="7" fill="#f0c1ad" opacity="0.35"/><circle cx="233" cy="677" r="8" fill="#f0c1ad" opacity="0.42"/><circle cx="234" cy="678" r="9" fill="#f0c1ad" opacity="0.21"/><circle cx="235" cy="679" r="10" fill="#f0c1ad" opacity="0.28"/><circle cx="236" cy="680" r="11" fill="#f0c1ad" opacity="0.35"/><circle cx="258" cy="702" r="11" fill="#f0c1ad" opacity="0.42"/><circle cx="259" cy="703" r="12" fill="#f0c1ad" opacity="0.21"/><circle cx="260" cy="704" r="13" fill="#f0c1ad" opacity="0.28"/><circle cx="261" cy="705" r="14" fill="#f0c1ad" opacity="0.35"/><circle cx="262" cy="706" r="15" fill="#f0c1ad" opacity="0.42"/><circle cx="263" cy="707" r="16" fill="#f0c1ad" opacity="0.21"/>
+  </g>
+
+  <g transform="translate(820 170) rotate(-3)" filter="url(#shadow)">
+    <ellipse cx="0" cy="0" rx="210" ry="160" fill="url(#panelGlow)"/>
+    <ellipse cx="0" cy="0" rx="138" ry="104" fill="rgba(35, 15, 10, 0.34)"/>
+    <path d="M -92 0 C -48 -78, 52 -74, 96 0 C 46 70, -44 82, -92 0 Z" fill="#f0c1ad" opacity="0.72"/>
+    <path d="M -38 -60 C 20 -48, 58 18, 14 64 C -44 56, -72 -10, -38 -60 Z" fill="#f6d3a2" opacity="0.52"/>
+  </g>
+
+  <circle cx="887" cy="201" r="104" fill="#f0c1ad" opacity="0.12"/>
+  <circle cx="969" cy="490" r="148" fill="#f6d3a2" opacity="0.10"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="108" width="268" height="52" rx="26" fill="rgba(35, 15, 10, 0.34)"/>
+    <text x="102" y="141" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#fff5ea">STIR-FRY</text>
+
+    <rect x="72" y="673" width="304" height="58" rx="29" fill="#f0c1ad"/>
+    <text x="104" y="710" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#2f1a0f">PORK</text>
+  </g>
+
+  <g transform="translate(78 214)">
+    <text font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700" fill="#fff5ea">
+      <tspan x="0" dy="0">Stir-fried Sweet &amp;</tspan><tspan x="0" dy="86">Sour with Pork</tspan>
+    </text>
+    <text x="0" y="446" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="28" fill="rgba(255, 245, 233, 0.86)">Prep 13 min | Cook 16 min | Serves 4</text>
+    <text x="0" y="498" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="24" fill="rgba(255, 245, 233, 0.86)">Style: Sweet &amp; Sour | Rating 5.0</text>
+  </g>
+</svg>

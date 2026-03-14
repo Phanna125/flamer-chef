@@ -1,0 +1,65 @@
+.filter-sidebar {
+  padding: 24px;
+  position: sticky;
+  top: 100px; /* Offset for navbar */
+  height: fit-content;
+}
+
+.filter-section {
+  margin-bottom: 24px;
+}
+
+.filter-section:last-child {
+  margin-bottom: 0;
+}
+
+.filter-section h4 {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: #D6D3D1;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.filter-label:hover {
+  color: var(--cream-50);
+}
+
+.filter-label input {
+  display: none;
+}
+
+.checkbox-custom {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #57534E;
+  border-radius: 4px;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.filter-label input:checked ~ .checkbox-custom {
+  background-color: var(--primary-500);
+  border-color: var(--primary-500);
+}
+
+.filter-label input:checked ~ .checkbox-custom::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 4px;
+  height: 10px;
+  border: solid var(--charcoal-900);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

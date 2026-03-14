@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Curry with Tofu</title>
+  <desc id="desc">Generated recipe cover for Curry with Tofu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#23443c"/>
+      <stop offset="100%" stop-color="#6ea17b"/>
+    </linearGradient>
+    <linearGradient id="panelGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ede1b0" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#d2ecb6" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="rgba(8, 19, 17, 0.45)"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="42" y="42" width="1116" height="816" rx="36" fill="none" stroke="rgba(239, 248, 237, 0.22)" stroke-width="2"/>
+
+  <g opacity="0.16">
+    <circle cx="945" cy="229" r="11" fill="#ede1b0" opacity="0.27"/><circle cx="946" cy="230" r="12" fill="#ede1b0" opacity="0.34"/><circle cx="947" cy="231" r="13" fill="#ede1b0" opacity="0.41"/><circle cx="948" cy="232" r="14" fill="#ede1b0" opacity="0.2"/><circle cx="949" cy="233" r="15" fill="#ede1b0" opacity="0.27"/><circle cx="950" cy="234" r="16" fill="#ede1b0" opacity="0.34"/><circle cx="951" cy="235" r="6" fill="#ede1b0" opacity="0.41"/><circle cx="952" cy="236" r="7" fill="#ede1b0" opacity="0.2"/><circle cx="953" cy="237" r="8" fill="#ede1b0" opacity="0.27"/><circle cx="954" cy="238" r="9" fill="#ede1b0" opacity="0.34"/><circle cx="976" cy="260" r="9" fill="#ede1b0" opacity="0.41"/><circle cx="977" cy="261" r="10" fill="#ede1b0" opacity="0.2"/><circle cx="978" cy="262" r="11" fill="#ede1b0" opacity="0.27"/><circle cx="979" cy="263" r="12" fill="#ede1b0" opacity="0.34"/><circle cx="980" cy="264" r="13" fill="#ede1b0" opacity="0.41"/><circle cx="981" cy="265" r="14" fill="#ede1b0" opacity="0.2"/>
+  </g>
+
+  <g transform="translate(820 170) rotate(-7)" filter="url(#shadow)">
+    <ellipse cx="0" cy="0" rx="210" ry="160" fill="url(#panelGlow)"/>
+    <ellipse cx="0" cy="0" rx="138" ry="104" fill="rgba(11, 30, 26, 0.34)"/>
+    <path d="M -92 0 C -48 -78, 52 -74, 96 0 C 46 70, -44 82, -92 0 Z" fill="#ede1b0" opacity="0.72"/>
+    <path d="M -38 -60 C 20 -48, 58 18, 14 64 C -44 56, -72 -10, -38 -60 Z" fill="#d2ecb6" opacity="0.52"/>
+  </g>
+
+  <circle cx="999" cy="131" r="104" fill="#ede1b0" opacity="0.12"/>
+  <circle cx="1081" cy="602" r="148" fill="#d2ecb6" opacity="0.10"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="108" width="268" height="52" rx="26" fill="rgba(11, 30, 26, 0.34)"/>
+    <text x="102" y="141" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#f3fbef">SOUP &amp; STEW</text>
+
+    <rect x="72" y="678" width="304" height="58" rx="29" fill="#ede1b0"/>
+    <text x="104" y="715" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#2f1a0f">TOFU</text>
+  </g>
+
+  <g transform="translate(78 214)">
+    <text font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700" fill="#f3fbef">
+      <tspan x="0" dy="0">Curry with Tofu</tspan>
+    </text>
+    <text x="0" y="360" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="28" fill="rgba(243, 251, 239, 0.84)">Prep 10 min | Cook 10 min | Serves 3</text>
+    <text x="0" y="412" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="24" fill="rgba(243, 251, 239, 0.84)">Style: Curry | Rating 4.8</text>
+  </g>
+</svg>

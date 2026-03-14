@@ -1,0 +1,48 @@
+.search-results-page {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.search-header {
+  margin-bottom: 40px;
+}
+
+.search-title {
+  font-size: 2.5rem;
+  color: var(--cream-50);
+}
+
+.search-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.search-sidebar-wrapper {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.recipes-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+@media (max-width: 768px) {
+  .search-layout {
+    flex-direction: column;
+  }
+  
+  .search-sidebar-wrapper {
+    width: 100%;
+    position: static;
+  }
+}

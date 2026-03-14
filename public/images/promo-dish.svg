@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d1810"/>
+      <stop offset="50%" stop-color="#3e2218"/>
+      <stop offset="100%" stop-color="#4a2c1a"/>
+    </linearGradient>
+    <radialGradient id="dishGlow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  <rect width="800" height="500" fill="url(#dishGlow)"/>
+
+  <!-- Plate/Bowl -->
+  <g transform="translate(400, 230)" filter="url(#shadow)">
+    <!-- Bowl shadow -->
+    <ellipse cx="0" cy="30" rx="140" ry="35" fill="rgba(0,0,0,0.2)"/>
+    <!-- Bowl body -->
+    <ellipse cx="0" cy="0" rx="130" ry="100" fill="#5D4037"/>
+    <ellipse cx="0" cy="-10" rx="120" ry="85" fill="#6D4C41"/>
+    <!-- Bowl rim -->
+    <ellipse cx="0" cy="-60" rx="120" ry="30" fill="#795548" stroke="#8D6E63" stroke-width="2"/>
+    <!-- Food inside -->
+    <ellipse cx="0" cy="-55" rx="105" ry="22" fill="#C8A951"/>
+
+    <!-- Food details - amok style -->
+    <g clip-path="ellipse(105 22)">
+      <circle cx="-30" cy="-60" r="12" fill="#D4A843" opacity="0.7"/>
+      <circle cx="20" cy="-55" r="10" fill="#BF953F" opacity="0.7"/>
+      <circle cx="-10" cy="-50" r="8" fill="#D4A843" opacity="0.6"/>
+    </g>
+
+    <!-- Chili garnish -->
+    <path d="M -20 -75 Q -10 -80, 20 -78" fill="none" stroke="#E53935" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 10 -72 Q 20 -76, 40 -73" fill="none" stroke="#F44336" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Herb garnish -->
+    <g transform="translate(-5, -70)">
+      <path d="M 0 0 Q -10 -8, -20 -5 Q -10 -2, 0 0" fill="#4CAF50" opacity="0.7"/>
+      <path d="M 0 0 Q 8 -10, 18 -8 Q 8 -3, 0 0" fill="#66BB6A" opacity="0.6"/>
+      <path d="M 2 0 Q -5 -12, -12 -15 Q -3 -8, 2 0" fill="#43A047" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- Steam effects -->
+  <g opacity="0.15" fill="none" stroke="white" stroke-width="2">
+    <path d="M 370 130 Q 380 110, 370 90 Q 360 70, 370 50">
+      <animate attributeName="d" dur="3s" repeatCount="indefinite"
+        values="M 370 130 Q 380 110, 370 90 Q 360 70, 370 50;
+                M 370 130 Q 360 110, 370 90 Q 380 70, 370 50;
+                M 370 130 Q 380 110, 370 90 Q 360 70, 370 50"/>
+    </path>
+    <path d="M 400 125 Q 410 105, 400 85 Q 390 65, 400 45">
+      <animate attributeName="d" dur="3.5s" repeatCount="indefinite"
+        values="M 400 125 Q 410 105, 400 85 Q 390 65, 400 45;
+                M 400 125 Q 390 105, 400 85 Q 410 65, 400 45;
+                M 400 125 Q 410 105, 400 85 Q 390 65, 400 45"/>
+    </path>
+    <path d="M 430 130 Q 440 110, 430 90 Q 420 70, 430 50">
+      <animate attributeName="d" dur="4s" repeatCount="indefinite"
+        values="M 430 130 Q 440 110, 430 90 Q 420 70, 430 50;
+                M 430 130 Q 420 110, 430 90 Q 440 70, 430 50;
+                M 430 130 Q 440 110, 430 90 Q 420 70, 430 50"/>
+    </path>
+  </g>
+
+  <!-- Wooden table surface lines -->
+  <g stroke="#5D4037" stroke-width="0.5" opacity="0.15">
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="420" x2="800" y2="418"/>
+    <line x1="0" y1="440" x2="800" y2="442"/>
+    <line x1="0" y1="460" x2="800" y2="458"/>
+    <line x1="0" y1="480" x2="800" y2="482"/>
+  </g>
+
+  <!-- Chopsticks -->
+  <g transform="translate(600, 300) rotate(30)" opacity="0.5">
+    <line x1="0" y1="0" x2="0" y2="180" stroke="#A1887F" stroke-width="4" stroke-linecap="round"/>
+    <line x1="15" y1="5" x2="12" y2="185" stroke="#8D6E63" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Small side dish -->
+  <g transform="translate(200, 370)" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="40" ry="15" fill="#795548"/>
+    <ellipse cx="0" cy="-5" rx="35" ry="12" fill="#8D6E63"/>
+    <ellipse cx="0" cy="-5" rx="30" ry="8" fill="#A1887F"/>
+    <!-- Dipping sauce -->
+    <ellipse cx="0" cy="-5" rx="25" ry="6" fill="#5D4037"/>
+  </g>
+
+  <!-- Subtle vignette -->
+  <rect width="800" height="500" fill="url(#bg2)" opacity="0.2"/>
+</svg>
